@@ -1,0 +1,17 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title> My first S3 static website </title>
+</head>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<body>
+<h1>Welcome to my first website!</h1>
+<h3>This is my first S3 experiment!</h3>
+<div id="cors_file">
+</div>
+<!--Replace URL -->
+<script>
+$("#cors_file").load("http://colibris3corsbucket.s3-website-us-east-1.amazonaws.com/cors.html");
+</script>
+</body>
+</html>
